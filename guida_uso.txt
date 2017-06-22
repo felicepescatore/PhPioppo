@@ -1,0 +1,5 @@
+Il progetto TestLibrary fornisce gli esempi necessari ad utilizzare correttamente il SessionAffinityProxy.
+In particolare, per eseguire i test, è necessario:
+a) installare il FakeService su due macchine distinte
+b) settare correttamente "address1" e "address2" nell'app.config del progetto di test tenendo cura che gli indirizzi sono
+   case sensitive
